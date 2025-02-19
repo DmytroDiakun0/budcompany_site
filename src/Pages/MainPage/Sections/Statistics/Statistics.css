@@ -1,0 +1,26 @@
+#statistics {
+    background: #000;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    border-radius: 40px 40px 0 0;
+    align-items: center;
+}
+
+.statistics-item {
+    flex-grow: 1;
+    width: 20%;
+    text-align: center;
+}
+
+.statistics-item-title {
+    font-size: 40px;
+}
+
+.statistics-item-text {
+    font-size: 20px;
+}
+
+#statistics-image {
+    height: 170px;
+}

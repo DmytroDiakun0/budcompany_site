@@ -1,0 +1,26 @@
+#history {
+    height: 500px;
+    border-radius: 0 0 40px 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+#history-image {
+    width: 30%;
+    margin-right: 50px;
+}
+
+#history-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+#history-text p {
+    font-size: 16px;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 15px;
+}
