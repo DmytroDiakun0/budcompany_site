@@ -1,0 +1,46 @@
+#header {
+    background: #000;
+}
+
+#header-content {
+    background: none;
+}
+
+#site-logo-container {
+    background: aquamarine;
+    padding: 10px 20px;
+}
+
+#site-logo {
+    height: 40px;
+}
+
+#main-menu {
+    width: fit-content;
+}
+
+.main-menu-link {
+    color: #fff;
+    display: inline-block;
+}
+
+#main-menu .main-menu-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-menu-link:hover {
+    color: aquamarine;
+}
+
+#contact-us-link {
+    color: #000;
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 23px 20px 22px 20px;
+    border-radius: 0;
+}
+
+#contact-us-link:hover {
+    background-color: darkcyan;
+}
