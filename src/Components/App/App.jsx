@@ -7,6 +7,7 @@ import ContactUsPage from "../../Pages/ContactUsPage/ContactUsPage.jsx";
 import PolicyPage from "../../Pages/PolicyPage/PolicyPage.jsx";
 import NotFoundPage from "../../Pages/NotFound/NotFoundPage.jsx";
 import Header from "../Header/Header.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </BrowserRouter>
+            <Footer/>
         </>
 
     );

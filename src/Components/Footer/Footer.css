@@ -1,0 +1,22 @@
+#footer {
+    height: 100px;
+    background: #000;
+}
+
+#footer-content {
+    height: 100px;
+    padding: 0 70px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#policy-link {
+    color: #fff;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#policy-link:hover {
+    color: aquamarine;
+}
