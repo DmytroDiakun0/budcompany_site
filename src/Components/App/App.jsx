@@ -12,6 +12,8 @@ import ApartmentRepair from "../../Pages/RepairPage/SubPages/ApartmentRepair/Apa
 import HouseRepair from "../../Pages/RepairPage/SubPages/HouseRepair/HouseRepair.jsx";
 import OfficeRepair from "../../Pages/RepairPage/SubPages/OfficeRepair/OfficeRepair.jsx";
 import ShopRepair from "../../Pages/RepairPage/SubPages/ShopRepair/ShopRepair.jsx";
+import HouseBuild from "../../Pages/BuildPage/SubPages/HouseBuild/HouseBuild.jsx";
+import CottageBuild from "../../Pages/BuildPage/SubPages/CottageBuild/CottageBuild.jsx";
 
 function App() {
     return (
@@ -25,6 +27,8 @@ function App() {
                     <Route path="repair/office" element={<OfficeRepair />} />
                     <Route path="repair/shop" element={<ShopRepair />} />
                     <Route path="repair" element={<RepairPage />} />
+                    <Route path="build/house" element={<HouseBuild />} />
+                    <Route path="build/cottage" element={<CottageBuild />} />
                     <Route path="build" element={<BuildPage />} />
                     <Route path="contact_us" element={<ContactUsPage />} />
                     <Route path="policy" element={<PolicyPage />} />

@@ -11,6 +11,9 @@ function RepairPage() {
 
     return (
         <>
+            <Container id="repair-title">
+                {repairPageText.title}
+            </Container>
             <Container id="repair">
                 <Link class="repair-item" href="/repair/apartment" underline="none">
                     <Box class="repair-item-image" component="img" src={repairImage1}></Box>

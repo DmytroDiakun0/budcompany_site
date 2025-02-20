@@ -1,11 +1,11 @@
-#repair {
+#build {
     padding: 30px 60px 50px 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#repair-title {
+#build-title {
     width: fit-content;
     padding: 30px 40px;
     margin-top: 50px;
@@ -15,16 +15,24 @@
     font-size: 45px;
 }
 
-.repair-item {
-    width: 45%;
+.build-item {
+    width: 60%;
     margin: 20px;
 }
 
-.repair-item:hover .repair-item-text {
+#build .build-item:nth-child(odd) {
+    margin-right: auto;
+}
+
+#build .build-item:nth-child(even) {
+    margin-left: auto;
+}
+
+.build-item:hover .build-item-text {
     background-color: darkcyan;
 }
 
-.repair-item-text {
+.build-item-text {
     display: inline-block;
     width: 100%;
     color: black;
@@ -36,9 +44,8 @@
     font-size: 20px;
 }
 
-.repair-item-image {
-    max-width: 100%;
+.build-item-image {
+    width: 100%;
     height: 400px;
-    width: auto;
     border-radius: 20px 20px 0 0;
 }
