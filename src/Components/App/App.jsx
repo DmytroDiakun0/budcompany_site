@@ -8,6 +8,10 @@ import PolicyPage from "../../Pages/PolicyPage/PolicyPage.jsx";
 import NotFoundPage from "../../Pages/NotFound/NotFoundPage.jsx";
 import Header from "../Header/Header.jsx";
 import Footer from "../Footer/Footer.jsx";
+import ApartmentRepair from "../../Pages/RepairPage/SubPages/ApartmentRepair/ApartmentRepair.jsx";
+import HouseRepair from "../../Pages/RepairPage/SubPages/HouseRepair/HouseRepair.jsx";
+import OfficeRepair from "../../Pages/RepairPage/SubPages/OfficeRepair/OfficeRepair.jsx";
+import ShopRepair from "../../Pages/RepairPage/SubPages/ShopRepair/ShopRepair.jsx";
 
 function App() {
     return (
@@ -16,6 +20,10 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route index element={<MainPage />} />
+                    <Route path="repair/apartment" element={<ApartmentRepair />} />
+                    <Route path="repair/house" element={<HouseRepair />} />
+                    <Route path="repair/office" element={<OfficeRepair />} />
+                    <Route path="repair/shop" element={<ShopRepair />} />
                     <Route path="repair" element={<RepairPage />} />
                     <Route path="build" element={<BuildPage />} />
                     <Route path="contact_us" element={<ContactUsPage />} />
