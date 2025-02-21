@@ -20,10 +20,10 @@ function ApartmentRepair() {
                         </Typography>
                     ))}
                     <Container class="article-controls">
-                        <Button variant="contained" color="success" href="/repair">
+                        <Button variant="contained" color="success" href="#/repair">
                             {apartmentRepairText.see_other_link}
                         </Button>
-                        <Button variant="contained" color="success" href="/contact_us">
+                        <Button variant="contained" color="success" href="#/contact_us">
                             {apartmentRepairText.order_link}
                         </Button>
                     </Container>

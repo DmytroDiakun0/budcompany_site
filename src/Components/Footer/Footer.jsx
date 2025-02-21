@@ -12,7 +12,7 @@ function Footer() {
                     <Box id="copyright-text">
                         {footerText.copyright_text}
                     </Box>
-                    <Link id="policy-link" href="/policy" underline="none">
+                    <Link id="policy-link" href="#/policy" underline="none">
                         {footerText.policy_link}
                     </Link>
                 </Container>

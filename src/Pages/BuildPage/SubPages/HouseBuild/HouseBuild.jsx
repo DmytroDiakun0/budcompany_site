@@ -20,10 +20,10 @@ function HouseBuild() {
                         </Typography>
                     ))}
                     <Container class="article-controls">
-                        <Button variant="contained" color="success" href="/build">
+                        <Button variant="contained" color="success" href="#/build">
                             {houseBuildText.see_other_link}
                         </Button>
-                        <Button variant="contained" color="success" href="/contact_us">
+                        <Button variant="contained" color="success" href="#/contact_us">
                             {houseBuildText.order_link}
                         </Button>
                     </Container>

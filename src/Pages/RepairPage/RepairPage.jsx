@@ -15,19 +15,19 @@ function RepairPage() {
                 {repairPageText.title}
             </Container>
             <Container id="repair">
-                <Link class="repair-item" href="/repair/apartment" underline="none">
+                <Link class="repair-item" href="#/repair/apartment" underline="none">
                     <Box class="repair-item-image" component="img" src={repairImage1}></Box>
                     <Box class="repair-item-text">{repairPageText.categories[0]}</Box>
                 </Link>
-                <Link class="repair-item" href="/repair/house" underline="none">
+                <Link class="repair-item" href="#/repair/house" underline="none">
                     <Box class="repair-item-image" component="img" src={repairImage2}></Box>
                     <Box class="repair-item-text">{repairPageText.categories[1]}</Box>
                 </Link>
-                <Link class="repair-item" href="/repair/office" underline="none">
+                <Link class="repair-item" href="#/repair/office" underline="none">
                     <Box class="repair-item-image" component="img" src={repairImage3}></Box>
                     <Box class="repair-item-text">{repairPageText.categories[2]}</Box>
                 </Link>
-                <Link class="repair-item" href="/repair/shop" underline="none">
+                <Link class="repair-item" href="#/repair/shop" underline="none">
                     <Box class="repair-item-image" component="img" src={repairImage4}></Box>
                     <Box class="repair-item-text">{repairPageText.categories[3]}</Box>
                 </Link>

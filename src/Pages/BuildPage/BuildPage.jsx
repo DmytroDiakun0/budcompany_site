@@ -13,11 +13,11 @@ function BuildPage() {
                 {buildPageText.title}
             </Container>
             <Container id="build">
-                <Link class="build-item" href="/build/house" underline="none">
+                <Link class="build-item" href="#/build/house" underline="none">
                     <Box class="build-item-image" component="img" src={buildImage1}></Box>
                     <Box class="build-item-text">{buildPageText.categories[0]}</Box>
                 </Link>
-                <Link class="build-item" href="/build/cottage" underline="none">
+                <Link class="build-item" href="#/build/cottage" underline="none">
                     <Box class="build-item-image" component="img" src={buildImage2}></Box>
                     <Box class="build-item-text">{buildPageText.categories[1]}</Box>
                 </Link>
