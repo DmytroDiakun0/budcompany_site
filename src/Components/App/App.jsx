@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
+import {Routes, Route, HashRouter} from "react-router-dom";
 import "./App.css"
 import MainPage from "../../Pages/MainPage/MainPage.jsx";
 import RepairPage from "../../Pages/RepairPage/RepairPage.jsx";
@@ -19,7 +19,7 @@ function App() {
     return (
         <>
             <Header/>
-            <HashRouter>
+            <HashRouter >
                 <Routes>
                     <Route index element={<MainPage />} />
                     <Route path="repair/apartment" element={<ApartmentRepair />} />
