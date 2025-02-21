@@ -22,16 +22,17 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route index element={<MainPage />} />
-                    <Route path="repair/apartment" element={<ApartmentRepair />} />
-                    <Route path="repair/house" element={<HouseRepair />} />
-                    <Route path="repair/office" element={<OfficeRepair />} />
-                    <Route path="repair/shop" element={<ShopRepair />} />
-                    <Route path="repair" element={<RepairPage />} />
-                    <Route path="build/house" element={<HouseBuild />} />
-                    <Route path="build/cottage" element={<CottageBuild />} />
-                    <Route path="build" element={<BuildPage />} />
-                    <Route path="contact_us" element={<ContactUsPage />} />
-                    <Route path="policy" element={<PolicyPage />} />
+                    <Route path="budcompany_site" element={<MainPage />} />
+                    <Route path="budcompany_site/repair/apartment" element={<ApartmentRepair />} />
+                    <Route path="budcompany_site/repair/house" element={<HouseRepair />} />
+                    <Route path="budcompany_site/repair/office" element={<OfficeRepair />} />
+                    <Route path="budcompany_site/repair/shop" element={<ShopRepair />} />
+                    <Route path="budcompany_site/repair" element={<RepairPage />} />
+                    <Route path="budcompany_site/build/house" element={<HouseBuild />} />
+                    <Route path="budcompany_site/build/cottage" element={<CottageBuild />} />
+                    <Route path="budcompany_site/build" element={<BuildPage />} />
+                    <Route path="budcompany_site/contact_us" element={<ContactUsPage />} />
+                    <Route path="budcompany_site/policy" element={<PolicyPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </BrowserRouter>
